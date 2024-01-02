@@ -1,0 +1,59 @@
+.taskWrapper {
+    background: #ddd;
+    border-radius: 4px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+}
+
+.taskDetail {
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+}
+
+.todoItemBox {
+    display: flex;
+    flex-basis: 25px;
+    height: 25px;
+}
+
+.todoItemText {
+    color: #111;
+    font-weight: 500;
+    word-break: break-all;
+}
+
+.todoItemText>a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #000;
+}
+
+.todoItemText>p {
+    margin: 0;
+    font-size: smaller;
+}
+
+.todoAction {
+    align-items: center;
+    display: flex;
+}
+
+.todoActionItem {
+    background-color: #999;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: .5rem;
+    border: 0;
+}
+
+.todoActionItem:hover {
+    transform: translateY(-2px);
+    background-color: #aaa;
+}
+
+.todoActionItem:active {
+    transform: translateY(0);
+}
